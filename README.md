@@ -5,8 +5,11 @@ Provides for download ready-to-use firmwares for ESPuino. Some further informati
 * master: [Firmwares/master](https://github.com/biologist79/ESPuino-Firmware/tree/main/Firmwares/master)
 * dev-branch: [Firmwares/dev](https://github.com/biologist79/ESPuino-Firmware/tree/main/Firmwares/dev)
 
+> :warning: Filenaming is currently in transition. Rfid-reader will be omitted as reader's type is [autodetected at boot](https://forum.espuino.de/t/autoerkennung-von-rfid-reader/4453). We're currently about to investigate if BT should be activated permanentely. If this happens, BT/noBT will disappear as well.
+
 Filenaming is as follows:  
-firmware-{HAL}-{rfid-reader}-{BT/noBT}.bin  
+old: firmware-{HAL}-{rfid-reader}-{BT/noBT}.bin<br />
+new: firmware-{HAL}-{BT/noBT}.bin
 
 While:
 
