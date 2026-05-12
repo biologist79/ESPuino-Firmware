@@ -8,11 +8,9 @@ Provides for download ready-to-use firmwares for ESPuino. Some further informati
 > :warning: Filenaming is currently in transition. Rfid-reader will be omitted as reader's type is [autodetected at boot](https://forum.espuino.de/t/autoerkennung-von-rfid-reader/4453). We're currently about to investigate if BT should be activated permanentely. If this happens, BT/noBT will disappear as well.
 
 Filenaming is as follows:  
-old: firmware-{HAL}-{rfid-reader}-{BT/noBT}.bin<br />
-new: firmware-{HAL}-{BT/noBT}.bin
+firmware-{HAL}-{BT/noBT}.bin
 
 While:
 
 * {HAL}: Which HAL was used (e.g. [complete](https://forum.espuino.de/t/espuino-complete/3817) or [lolin_d32_pro_sdmmc_pe](https://forum.espuino.de/t/espuino-mini-4layer/1661))
-* {rfid-reader}: PN5180 or RC522
 * {BT/noBT}: Bluetooth is enabled or not
